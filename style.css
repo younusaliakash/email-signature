@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 700px;
+	height: 230px;
+	box-shadow: -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	
+}
+.table{
+ 	box-sizing: border-box;
+	
+}
+.main{
+	border-right: 2px solid gray;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-right: 40px;
+	padding-left: 40px; 
+}
+.info{
+	padding-left:40px;
+	padding-top: 30px;
+	padding-right:40px;
+	padding-bottom: 30px;
+}
+.name{
+	font-family: arial;
+	font-size: 23px;
+	color: #9192A1;
+	line-height: 23px;
+}
+.title{
+	font-family: arial;
+	font-size: 15px;
+	color: #9192A1;
+	line-height: 15px;
+}
+.social{
+	line-height: 20px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.socialicon{
+	height: 20px;
+	width: 20px;
+	border: 1px solid #9192A1;
+	border-radius: 50%;
+}
+.company{
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 17px;
+	color: #9192A1;
+	line-height: 22px;
+
+}
+.address{
+	font-family: arial;
+	color: #9192A1;
+	font-size: 13px;
+	line-height: 20px;
+}
+.email{
+	font-family: arial;
+	font-size: 13px;
+	color: #9192A1;
+	line-height:20px;
+}
